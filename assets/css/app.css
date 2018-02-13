@@ -1628,8 +1628,8 @@ code {
 .container {
   max-width: 100%;
   margin: 0;
-  padding-left: 140px;
-  padding-right: 140px; }
+  padding-left: 110px;
+  padding-right: 110px; }
   @media (max-width: 50rem) {
     .container {
       max-width: 1000px;
@@ -1679,6 +1679,9 @@ code {
   padding-top: 60px;
   padding-bottom: 60px; }
 
+.page-header {
+  padding: 0 0 30px; }
+
 .section-recent-work {
   padding-top: 0; }
 
@@ -1697,6 +1700,17 @@ code {
   .recent-work-list a {
     text-decoration: none; }
 
+.page-work .recent-work-list {
+  margin: -10px; }
+  .page-work .recent-work-list li {
+    width: calc(50% - 30px);
+    height: 350px;
+    background: black;
+    margin: 15px; }
+    @media (max-width: 50rem) {
+      .page-work .recent-work-list li {
+        width: calc(100% - 30px); } }
+
 .entry-content h1, .entry-content .h1, .entry-content h2, .entry-content .h2, .entry-content h3, .entry-content .h3, .entry-content .recent-work-list a, .recent-work-list .entry-content a, .entry-content h4, .entry-content .h4, .entry-content h5, .entry-content .h5, .entry-content h6, .entry-content .h6 {
   margin-top: 40px; }
 
@@ -1711,9 +1725,9 @@ code {
 
 .btn {
   margin: 0;
-  margin-top: 10px;
+  margin-top: 20px;
   min-width: 180px;
-  padding: 12px;
+  padding: 12px 24px;
   font-family: "proxima-nova", sans-serif;
   font-size: 0.875rem;
   color: #fff;
@@ -1740,7 +1754,8 @@ code {
   .btn.white {
     background-color: #fff;
     transition: all 0.2s linear;
-    color: #000; }
+    color: #000;
+    border: 2px solid #000; }
     .btn.white:hover {
       color: #fff;
       background-color: #d9d9d9; }

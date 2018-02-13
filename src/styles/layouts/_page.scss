@@ -8,8 +8,8 @@
 .container {
   max-width: 100%;
   margin: 0;
-  padding-left: 140px;
-  padding-right: 140px;
+  padding-left: 110px;
+  padding-right: 110px;
   @media (max-width: $bp-md) {
     max-width: 1000px;
     padding-left: 15px;
@@ -59,10 +59,13 @@
     width: 100%;
   }
 }
-// global section
+// global sections / page wraps
 .section-wrap {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.page-header {
+  padding: 0 0 30px;
 }
 
 
@@ -82,6 +85,18 @@
   a {
     text-decoration: none;
     @extend .h3;
+  }
+}
+.page-work .recent-work-list {
+  margin: -10px;
+  li {
+    width: calc(50% - 30px);
+    height: 350px;
+    background: black;
+    margin: 15px;
+    @media (max-width: $bp-md) {
+      width: calc(100% - 30px);
+    }
   }
 }
 
