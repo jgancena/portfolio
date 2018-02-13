@@ -28,6 +28,12 @@
   }
 }
 
+.re-li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 .half {
   width: 50%;
   @media (max-width: $bp-md) {
