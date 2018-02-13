@@ -114,8 +114,13 @@
 .footer {
   background-color: $color-primary;
   color: $color-white;
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
   a {
     color: $color-white;
+    text-decoration: none;
   }
 }
 

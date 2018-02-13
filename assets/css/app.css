@@ -1720,8 +1720,12 @@ code {
 .footer {
   background-color: #000;
   color: #fff; }
+  .footer ul {
+    list-style-type: none;
+    padding: 0; }
   .footer a {
-    color: #fff; }
+    color: #fff;
+    text-decoration: none; }
 
 .btn {
   margin: 0;
