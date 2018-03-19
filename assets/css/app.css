@@ -1728,6 +1728,10 @@ code {
     @media (max-width: 50rem) {
       .page-work .recent-work-list li {
         width: calc(100% - 30px); } }
+  .page-work .recent-work-list a {
+    display: inline-block;
+    width: 100%;
+    height: 100%; }
 
 .cta .btn {
   margin-top: 10px; }

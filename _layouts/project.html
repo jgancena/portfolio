@@ -4,7 +4,7 @@ bodyclass: project
 ---
 
 <div class="section-about section-wrap">
-    <div class="container">
+  <div class="container">
   
       <div class="row">
         <div class="col-xs-12">
@@ -15,27 +15,33 @@ bodyclass: project
       </div><!--/.row-->
   
       <div class="row">
-          <div class="col-xs-12 col-sm-5 about-meta">
-            <div class="about-meta__date">{{project.date}}</div>
-            <div class="about-meta__type">{{project.type}}</div>
-            <div class="about-meta__agency">{{project.agency}}</div>
-          </div>
-          <div class="col-xs-12 col-sm-7 about-description">
-            <p>{{project.content}}</p>
-          </div><!--/.col-->
+        <div class="col-xs-12 col-sm-5 about-meta">
+          <div class="about-meta__date">{{page.date}}</div>
+          <div class="about-meta__type">{{page.type}}</div>
+          <div class="about-meta__agency">{{page.agency}}</div>
+        </div><!--/.about-meta-->
+        <div class="col-xs-12 col-sm-7 about-description">
+          <p>{{page.description}}</p>
+        </div><!--/.about-description-->
       </div><!--/.row-->
   
       <div class="row section-wrap text-center about-work-items">
         <div class="col-xs-12 col-sm-6 about-work-items__item">
-          fdf
-        </div><!--/.col-->
+          <img src="{{page.img1}}">
+        </div><!--/.about-work-item-->
         <div class="col-xs-12 col-sm-6 about-work-items__item">
-          fsdf
-        </div><!--/.col-->
-        <div class="col-xs-12 col-sm-12 about-work-items__item">
-          fsdf
-        </div><!--/.col-->
+          <img src="{{page.img2}}">
+        </div><!--/.about-work-item-->
+        <div class="col-xs-12 col-sm-12 about-work-items__item about-work-items__item--is-full">
+          <img src="{{page.img2}}">
+        </div><!--/.about-work-item-->
       </div><!--/.row-->
+
+      <div class="row section-wrap about-work-additional-content">
+        <div class="col-xs-12">
+          {{content}}
+        </div><!--/.about-work-additional-content-->
+       </div><!--/.row-->
   
       <div class="row section-wrap text-center">
         <div class="col-xs-12 cta">
@@ -43,7 +49,6 @@ bodyclass: project
           <a href="#" class="btn white">Back to work</a>
         </div><!--/.col-->
       </div><!--/.row-->
-  
   
     </div><!--/.container-->
   </div><!--/.section-about-->

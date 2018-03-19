@@ -8,21 +8,11 @@ subtitle:
 
 <div class="section-recent-work section-wrap">
   <div class="container">
-
     <ul class="re-li recent-work-list">
-      <li>
-        <a href="">item 1</a>
-      </li>
-      <li>
-        <a href="">item 2</a>
-      </li>
-      <li>
-        <a href="">item 3</a>
-      </li>
-      <li>
-        <a href="">item 4</a>
-      </li>
-    </ul>
+      {% for project in site.projects %}	
+      <li><a href="{{ project.url }}" title="{{ project.title }}"></a></li>
+      {% endfor %}	
+    </ul><!--/.recent-work-list-->
 
     <div class="row section-wrap text-center">
       <div class="col-xs-12 cta">
