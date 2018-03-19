@@ -109,18 +109,30 @@
   }
 }
 
-// ABOUT
+// ABOUT & PROJECT SINGLE
 .about-featured {
   &__img {}
 }
 
 .about-meta {}
 
-.about-meta__date {
-
-}
+.about-meta__date {}
 
 .about-meta-type {}
+
+.about-description {
+  padding-top: 30px;
+  @media (min-width: $bp-md) {
+    padding-top: 0;
+  }
+}
+
+.about-work-items {
+
+  &--is-full {
+    width: 100%;
+  }
+}
 
 
 
