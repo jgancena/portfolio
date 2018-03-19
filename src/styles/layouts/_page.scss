@@ -87,6 +87,27 @@
     @extend .h3;
   }
 }
+
+.recent-work-list--is-home {
+  position: relative;
+}
+
+.work-item-image {
+  position: absolute;
+  width: 50%;
+  height: 350px;
+  background: red;
+  bottom: 20px;
+  right: 0;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+
 .page-work .recent-work-list {
   margin: -10px;
   li {

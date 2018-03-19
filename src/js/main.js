@@ -25,6 +25,26 @@ $(function() {
   });
 });
 
+
+
+// when hover over work-item, take it's data-src attr and set it as imgSrc's img attr
+var workItem = $('.recent-work-list--is-home > li a');
+workItem.on({
+	mouseenter: function () {
+
+		var workItemSrc = $(this).data('src');
+		var imgContainer = $('.work-item-image img')
+		var imgSrc = imgContainer.attr('src');
+		var currentSrc = $(this).data('src');
+		var breakpoint = 800;
+		if ($(window).width() >= breakpoint) {
+			imgContainer.attr('src', currentSrc);
+			$(this).addClass('active');
+		}
+	}
+});
+
+
 // validate on formsubmit
 var formSubmit = $('#js-form-submit');
 formSubmit.click(function() {
