@@ -1705,14 +1705,18 @@ code {
 
 .work-item-image {
   position: absolute;
-  width: 50%;
-  height: 350px;
-  background: red;
+  width: auto;
+  max-width: 65%;
+  height: auto;
   bottom: 20px;
-  right: 0; }
+  right: 0;
+  z-index: -1; }
   .work-item-image img {
     width: 100%;
     height: auto; }
+  @media (max-width: 50rem) {
+    .work-item-image {
+      display: none; } }
 
 .page-work .recent-work-list {
   margin: -10px; }
@@ -1724,6 +1728,9 @@ code {
     @media (max-width: 50rem) {
       .page-work .recent-work-list li {
         width: calc(100% - 30px); } }
+
+.cta .btn {
+  margin-top: 10px; }
 
 .entry-content h1, .entry-content .h1, .entry-content h2, .entry-content .h2, .entry-content h3, .entry-content .h3, .entry-content .recent-work-list a, .recent-work-list .entry-content a, .entry-content h4, .entry-content .h4, .entry-content h5, .entry-content .h5, .entry-content h6, .entry-content .h6 {
   margin-top: 40px; }
@@ -1742,6 +1749,7 @@ code {
     text-decoration: none; }
 
 .btn {
+  display: inline-block;
   margin: 0;
   margin-top: 20px;
   min-width: 180px;

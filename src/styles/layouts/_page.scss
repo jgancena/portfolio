@@ -94,20 +94,37 @@
 
 .work-item-image {
   position: absolute;
-  width: 50%;
-  height: 350px;
-  background: red;
+  width: auto;
+  max-width: 65%;
+  height: auto;
   bottom: 20px;
   right: 0;
+  z-index: -1;
   img {
     width: 100%;
     height: auto;
   }
+  @media (max-width: $bp-md) {
+    display: none;
+  }
 }
 
+// ABOUT
+.about-featured {
+  &__img {}
+}
+
+.about-meta {}
+
+.about-meta__date {
+
+}
+
+.about-meta-type {}
 
 
 
+// WORK
 .page-work .recent-work-list {
   margin: -10px;
   li {
@@ -118,6 +135,13 @@
     @media (max-width: $bp-md) {
       width: calc(100% - 30px);
     }
+  }
+}
+
+// Main content
+.cta {
+  .btn {
+    margin-top: 10px;
   }
 }
 

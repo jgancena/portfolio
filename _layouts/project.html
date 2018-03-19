@@ -3,25 +3,47 @@ layout: default
 bodyclass: project
 ---
 
-<div class="section-recent-work section-wrap">
-  <div class="container">
-
-    <ul class="re-li recent-work-list">
-      <li>
-        <a href="">item 1</a>
-      </li>
-    </ul>
-
-    <div class="row section-wrap text-center">
-      <div class="col-xs-12">
-        <p>Oh, and here's a collection of some recent identities I've worked on.</p>
-        <a href="#" class="btn white">Logos</a>
-      </div>
-      <!--/.col-->
-    </div>
-    <!--/.row-->
-
-  </div>
-  <!--/.container-->
-</div>
-<!--/.section-recent-work-->
+<div class="section-about section-wrap">
+    <div class="container">
+  
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="about-featured">
+            <img src="about-featured__img">
+          </div>
+        </div><!--/.col-->
+      </div><!--/.row-->
+  
+      <div class="row">
+          <div class="col-xs-12 col-sm-5 about-meta">
+            <div class="about-meta__date">{{project.date}}</div>
+            <div class="about-meta__type">{{project.type}}</div>
+            <div class="about-meta__agency">{{project.agency}}</div>
+          </div>
+          <div class="col-xs-12 col-sm-7 about-description">
+            <p>{{project.content}}</p>
+          </div><!--/.col-->
+      </div><!--/.row-->
+  
+      <div class="row section-wrap text-center about-work-items">
+        <div class="col-xs-12 col-sm-6 about-work-items__item">
+          fdf
+        </div><!--/.col-->
+        <div class="col-xs-12 col-sm-6 about-work-items__item">
+          fsdf
+        </div><!--/.col-->
+        <div class="col-xs-12 col-sm-12 about-work-items__item">
+          fsdf
+        </div><!--/.col-->
+      </div><!--/.row-->
+  
+      <div class="row section-wrap text-center">
+        <div class="col-xs-12 cta">
+          <p>Want to see more?</p>
+          <a href="#" class="btn white">Back to work</a>
+        </div><!--/.col-->
+      </div><!--/.row-->
+  
+  
+    </div><!--/.container-->
+  </div><!--/.section-about-->
