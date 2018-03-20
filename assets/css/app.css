@@ -2141,6 +2141,9 @@ svg:not(:root) {
 .hvr-underline-from-left--is-white:before {
   background: #fff; }
 
+.hvr-underline-from-left--is-nav:before {
+  bottom: 8px; }
+
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;

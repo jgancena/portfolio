@@ -142,4 +142,9 @@
       background: $color-white;
     }
   }
+  &--is-nav {
+    &:before {
+      bottom: 8px;
+    }
+  }
 }
