@@ -19,7 +19,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "proxima-nova", sans-serif;
+  font-family: "aktiv-grotesk", sans-serif;
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.15;
@@ -799,15 +799,15 @@ template {
   content: "\E8A9"; }
 
 body {
-  font-family: "proxima-nova", sans-serif;
+  font-family: "aktiv-grotesk", sans-serif;
   line-height: 1.45;
-  font-weight: 100;
+  font-weight: 400;
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased; }
 
 h1, .h1, h2, .h2, h3, .h3, .recent-work-list a, h4, .h4, h5, .h5, h6, .h6 {
-  font-family: "freight-text-pro", serif;
-  font-weight: 500;
+  font-family: "aktiv-grotesk", sans-serif;
+  font-weight: 400;
   line-height: 1.1;
   word-wrap: break-word;
   letter-spacing: 0.25px; }
@@ -1774,7 +1774,7 @@ code {
   margin-top: 20px;
   min-width: 180px;
   padding: 12px 24px;
-  font-family: "proxima-nova", sans-serif;
+  font-family: "aktiv-grotesk", sans-serif;
   font-size: 0.875rem;
   color: #000;
   background-color: transparent;
@@ -1829,7 +1829,7 @@ select {
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 0.875rem;
-  font-family: "freight-text-pro", serif;
+  font-family: "aktiv-grotesk", sans-serif;
   background: #fff;
   color: #111;
   border: 2px solid #111;
@@ -2011,10 +2011,10 @@ svg:not(:root) {
   background: #2B152C; }
 
 .font-heading {
-  font-family: "freight-text-pro", serif; }
+  font-family: "aktiv-grotesk", sans-serif; }
 
 .font-body {
-  font-family: "proxima-nova", sans-serif; }
+  font-family: "aktiv-grotesk", sans-serif; }
 
 .full-height {
   height: 100vh; }
