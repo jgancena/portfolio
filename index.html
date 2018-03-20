@@ -24,36 +24,40 @@ hero: #
       <div class="col-xs-12 col-sm-11">
         <h2 class="section-title h5">I've worked on -</h2>
         <ul class="re-li recent-work-list recent-work-list--is-home">
+          {% for project in site.projects %}	
           <li>
-            <a href="" data-src="//placeimg.com/640/480/animals">Florida Poly University</a>
+            <a href="{{ project.url }}" data-src="{{ site.baseurl}}/assets/images/{{ project.featuredImage }}" class="hvr-underline-from-left">
+              {{ project.title }}
+            </a>
+          </li>
+          {% endfor %}
+          <!--<li>
+            <a href="" data-src="//placeimg.com/640/480/nature" class="hvr-underline-from-left">BayCare</a>
           </li>
           <li>
-            <a href="" data-src="//placeimg.com/640/480/nature">BayCare</a>
+            <a href="" data-src="//placeimg.com/640/480/animals" class="hvr-underline-from-left">Channelside</a>
           </li>
           <li>
-            <a href="" data-src="//placeimg.com/640/480/animals">Channelside</a>
+            <a href="" data-src="//placeimg.com/640/480/nature" class="hvr-underline-from-left">Water Street</a>
           </li>
           <li>
-            <a href="" data-src="//placeimg.com/640/480/nature">Water Street</a>
+            <a href="" data-src="//placeimg.com/640/480/animals" class="hvr-underline-from-left">Flemings Steakhouse</a>
           </li>
           <li>
-            <a href="" data-src="//placeimg.com/640/480/animals">Flemings Steakhouse</a>
+            <a href="" data-src="//placeimg.com/640/480/nature" class="hvr-underline-from-left">Merlin Law Group</a>
           </li>
           <li>
-            <a href="" data-src="//placeimg.com/640/480/nature">Merlin Law Group</a>
+            <a href="" data-src="//placeimg.com/640/480/animals" class="hvr-underline-from-left">Equialt</a>
           </li>
           <li>
-            <a href="" data-src="//placeimg.com/640/480/animals">Equialt</a>
+            <a href="" data-src="//placeimg.com/640/480/nature" class="hvr-underline-from-left">Tampa Theatre</a>
           </li>
           <li>
-            <a href="" data-src="//placeimg.com/640/480/nature">Tampa Theatre</a>
+            <a href="" data-src="//placeimg.com/640/480/animals" class="hvr-underline-from-left">Nike Running Flatiron Store</a>
           </li>
           <li>
-            <a href="" data-src="//placeimg.com/640/480/animals">Nike Running Flatiron Store</a>
-          </li>
-          <li>
-            <a href="" data-src="//placeimg.com/640/480/nature">Logos</a>
-          </li>
+            <a href="" data-src="//placeimg.com/640/480/nature" class="hvr-underline-from-left">Logos</a>
+          </li>-->
           <div class="work-item-image"><img src="//placeimg.com/640/480/animals"></div>
         </ul>
       </div>

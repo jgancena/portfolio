@@ -1624,12 +1624,6 @@ code {
     color: #555; }
   .nav a {
     text-decoration: none; }
-  .nav .dash {
-    position: relative; }
-    .nav .dash:after {
-      content: '\2014';
-      display: inline-block;
-      padding: 0 5px; }
 
 .container {
   max-width: 100%;
@@ -1712,7 +1706,7 @@ code {
 .work-item-image {
   position: absolute;
   width: auto;
-  max-width: 65%;
+  max-width: 55%;
   height: auto;
   bottom: 20px;
   right: 0;
@@ -2114,9 +2108,16 @@ svg:not(:root) {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: -1; }
 
+.dash {
+  position: relative; }
+  .dash:after {
+    content: '\2014';
+    display: inline-block;
+    padding: 0 5px; }
+
 .hvr-underline-from-left {
   -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
+          transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
   position: relative;
   overflow: hidden; }
@@ -2127,8 +2128,8 @@ svg:not(:root) {
   z-index: -1;
   left: 0;
   right: 100%;
-  top: 0;
-  background: #555;
+  bottom: 20px;
+  background: #000;
   height: 2px;
   transition-property: right;
   transition-duration: 0.3s;
@@ -2136,6 +2137,9 @@ svg:not(:root) {
 
 .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
   right: 0; }
+
+.hvr-underline-from-left--is-white:before {
+  background: #fff; }
 
 @-webkit-keyframes fadeIn {
   from {
