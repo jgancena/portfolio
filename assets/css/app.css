@@ -158,7 +158,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #555;
+  color: #AAA;
   text-align: left;
   caption-side: bottom; }
 
@@ -1621,7 +1621,7 @@ code {
         width: 100%;
         margin-top: 0; } }
   .nav span {
-    color: #555; }
+    color: #AAA; }
   .nav a {
     text-decoration: none; }
 
@@ -1717,6 +1717,9 @@ code {
   @media (max-width: 50rem) {
     .work-item-image {
       display: none; } }
+
+.about-featured {
+  padding-bottom: 30px; }
 
 .about-description {
   padding-top: 30px; }
@@ -1837,7 +1840,7 @@ select {
   textarea:focus,
   select:active,
   select:focus {
-    border-color: #555; }
+    border-color: #AAA; }
 
 @media (min-width: 50rem) {
   textarea {
@@ -1963,7 +1966,7 @@ svg:not(:root) {
   color: #000; }
 
 .text-secondary {
-  color: #555; }
+  color: #AAA; }
 
 .text-body {
   color: #111; }
@@ -1977,7 +1980,7 @@ svg:not(:root) {
   color: #fff; }
 
 .bg-secondary {
-  background: #555;
+  background: #AAA;
   color: #111; }
 
 .bg-black {

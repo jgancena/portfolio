@@ -9,17 +9,24 @@ subtitle:
 <div class="section-recent-work section-wrap">
   <div class="container">
     <ul class="re-li recent-work-list">
-      {% for project in site.projects %}	
-      <li class="work-anim"><a href="{{ project.url }}" title="{{ project.title }}"></a></li>
-      {% endfor %}	
-    </ul><!--/.recent-work-list-->
+      {% for project in site.projects %}
+      <li class="work-anim">
+        <a href="{{ project.url }}" title="{{ project.title }}"></a>
+      </li>
+      {% endfor %}
+    </ul>
+    <!--/.recent-work-list-->
 
     <div class="row section-wrap text-center">
       <div class="col-xs-12 cta">
         <p>Oh, and here's a collection of some recent identities I've worked on.</p>
         <a href="#" class="btn white">Logos</a>
-      </div><!--/.col-->
-    </div><!--/.row-->
+      </div>
+      <!--/.col-->
+    </div>
+    <!--/.row-->
 
-  </div><!--/.container-->
-</div><!--/.section-recent-work-->
+  </div>
+  <!--/.container-->
+</div>
+<!--/.section-recent-work-->
