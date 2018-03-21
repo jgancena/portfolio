@@ -8,19 +8,23 @@ subtitle:
 
 <div class="section-recent-work section-wrap">
   <div class="container">
-    <ul class="re-li recent-work-list">
+    <ul class="re-li recent-work-list recent-work-list--is-work-page">
       {% for project in site.projects %}
       <li class="work-anim">
-        <a href="{{ project.url }}" title="{{ project.title }}"></a>
+        <a href="{{ project.url }}" title="{{ project.title }}">
+          <div class="recent-work-list__img-wrapper">
+            <img src="{{ site.baseurl}}/assets/images/{{ project.featuredImage }}">
+          </div>
+        </a>
       </li>
       {% endfor %}
     </ul>
     <!--/.recent-work-list-->
 
-    <div class="row section-wrap text-center">
+    <div class="row section-cta text-center">
       <div class="col-xs-12 cta">
         <p>Oh, and here's a collection of some recent identities I've worked on.</p>
-        <a href="#" class="btn white">Logos</a>
+        <a href="{{ site.baseurl}}/projects/logos" class="btn white">Logos</a>
       </div>
       <!--/.col-->
     </div>
