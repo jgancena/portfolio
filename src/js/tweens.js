@@ -25,7 +25,7 @@ tl
     tl.add(
       TweenMax.from($(this), 0.25, {
         autoAlpha: 0,
-        x: -30,
+        y: 5,
         ease: Power1.easeOut
       })
     );
@@ -34,7 +34,7 @@ tl
 	// work items
 	workItems.each(function() {
     tl.add(
-      TweenMax.staggerFrom($(this), 0.125, {
+      TweenMax.staggerFrom($(this), 0.15, {
         autoAlpha: 0,
         y: 5,
         ease: Power1.easeOut
