@@ -4,8 +4,8 @@ title: Fleming's Steakhouse
 homeImage: tbd
 featuredImage: flemings-hero.jpg
 date: 2018-01-05
-year: 2018
-type: website
+year: 2017
+type: Photography, Design
 agency: Sparxoo
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium recusandae saepe voluptate velit impedit accusantium soluta eos! Delectus cum deserunt laboriosam assumenda sunt consequuntur asperiores ipsum, tempore exercitationem quis.
 img1: flemings1.jpg

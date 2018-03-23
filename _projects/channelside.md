@@ -4,10 +4,10 @@ title: Channelside
 homeImage: tbd
 featuredImage: channelside-hero.jpg
 date: 2018-01-03
-year: 2018
-type: website
+year: 2017-2018
+type: Art Direction, Identity, UI/UX, Visual Design
 agency: Sparxoo
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium recusandae saepe voluptate velit impedit accusantium soluta eos! Delectus cum deserunt laboriosam assumenda sunt consequuntur asperiores ipsum, tempore exercitationem quis.
+description: With the new Channelside coming later this year, we created a new identity to represent the re-imagined space. Using shipping containers for outdoor kiosks and food vendors, we used the texture throughout the website and branding materials to connect back to the shape of the logo. The logo not only mimics the shape, it also emphasizes the concept of building, expanding and being modular. This re-energized space will incorporate rich retail experiences, gourmet cuisine, and creative office spaces along lush, waterfront parks which directly influenced the color palette — a deep, rich red and steel blue to represent the industrial inspiration and a bright lime green to bring in that outdoor experience.
 img1: channelside1.jpg
 img2: channelside2.jpg
 img3: channelside3.jpg
