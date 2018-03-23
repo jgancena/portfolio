@@ -34,10 +34,10 @@ tl
 	// work items
 	workItems.each(function() {
     tl.add(
-      TweenMax.staggerFrom($(this), 0.15, {
+      TweenMax.staggerFrom($(this), 0.1, {
         autoAlpha: 0,
-        y: 5,
-        ease: Power1.easeOut
+        y: -5,
+        ease: Power0.easeOut
       })
     );
 	})
