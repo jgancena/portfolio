@@ -126,7 +126,18 @@
 
 .about-meta__date {}
 
-.about-meta-type {}
+.about-meta__type {
+  &--list {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0;
+    li:before {
+      content: '+';
+      display: inline-block;
+      padding-right: 5px;
+    }
+  }
+}
 
 .about-meta__agency {
   padding-top: 15px;
