@@ -800,15 +800,16 @@ template {
 
 body {
   font-family: "aktiv-grotesk", sans-serif;
-  line-height: 1.45;
+  line-height: 1.2;
   font-weight: 400;
+  font-size: 1.25rem;
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased; }
 
 h1, .h1, h2, .h2, h3, .h3, .recent-work-list a, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "aktiv-grotesk", sans-serif;
   font-weight: 400;
-  line-height: 1.1;
+  line-height: 1.2;
   word-wrap: break-word;
   letter-spacing: 0.25px; }
 
@@ -864,10 +865,10 @@ h6,
       font-size: 1rem; } }
 
 p {
-  font-size: 1rem; }
+  font-size: 1.25rem; }
 
 ul, ol, dl {
-  font-size: 1rem; }
+  font-size: 1.25rem; }
 
 pre {
   padding: 20px;
@@ -1613,15 +1614,11 @@ code {
     @media (max-width: 50rem) {
       .nav li {
         margin-top: 10px; } }
-    @media (max-width: 50rem) {
-      .nav li.logo {
-        -webkit-box-ordinal-group: 0;
-            -ms-flex-order: -1;
-                order: -1;
-        width: 100%;
-        margin-top: 0; } }
   .nav span {
     color: #AAA; }
+    @media (max-width: 50rem) {
+      .nav span {
+        display: none; } }
   .nav a {
     text-decoration: none; }
 
@@ -1805,17 +1802,14 @@ code {
   border: 2px solid #000;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
   border-radius: 0;
   cursor: pointer;
   vertical-align: middle;
   white-space: nowrap;
+  transition-property: color;
+  vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
           transform: perspective(1px) translateZ(0);
-  transition-property: color;
-  transition-duration: 0.3s;
-  vertical-align: middle;
-  transform: perspective(1px) translateZ(0);
   transition-property: color;
   transition-duration: 0.3s; }
   .btn:before {
@@ -2110,15 +2104,17 @@ svg:not(:root) {
 .text-no-underline {
   text-decoration: none; }
 
-@media (max-width: 50rem) {
-  .hidden-phone {
-    display: none !important; } }
-
-.visible-phone {
+.hidden-phone {
   display: none; }
-  @media (max-width: 50rem) {
-    .visible-phone {
-      display: block !important; } }
+  @media (min-width: 50rem) {
+    .hidden-phone {
+      display: block; } }
+
+.hidden-desktop {
+  display: block; }
+  @media (min-width: 50rem) {
+    .hidden-desktop {
+      display: none !important; } }
 
 .bg-img-cover {
   position: relative;
@@ -2158,7 +2154,7 @@ svg:not(:root) {
   z-index: -1;
   left: 0;
   right: 100%;
-  bottom: 20px;
+  bottom: 2px;
   background: #000;
   height: 2px;
   transition-property: right;
@@ -2172,7 +2168,7 @@ svg:not(:root) {
   background: #fff; }
 
 .hvr-underline-from-left--is-nav:before {
-  bottom: 8px; }
+  bottom: 0; }
 
 @-webkit-keyframes fadeIn {
   from {

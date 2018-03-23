@@ -66,19 +66,19 @@
  .text-right {text-align: right;}
 
  .text-no-transform {text-transform: none;}
-
  .text-no-underline {text-decoration: none;}
 
  // Visibility
 .hidden-phone {
-   @media (max-width: $bp-md) {
-     display: none!important;
+   display: none;
+   @media (min-width: $bp-md) {
+     display: block;
    }
  }
- .visible-phone {
-   display: none;
-   @media (max-width: $bp-md) {
-     display: block!important;
+ .hidden-desktop {
+   display: block;
+   @media (min-width: $bp-md) {
+     display: none!important;
    }
 }
 // Images & Overlays
@@ -126,7 +126,7 @@
   z-index: -1;
   left: 0;
   right: 100%;
-  bottom: 20px;
+  bottom: 2px;
   background: $color-black;
   height: 2px;
   transition-property: right;
@@ -144,7 +144,7 @@
   }
   &--is-nav {
     &:before {
-      bottom: 8px;
+      bottom: 0;
     }
   }
 }

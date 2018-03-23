@@ -19,15 +19,18 @@
       margin-top: 10px;
     }
     &.logo {
-      @media (max-width: $bp-md) {
-        order: -1;
-        width: 100%;
-        margin-top: 0;
-      }
+      //@media (max-width: $bp-md) {
+        //order: -1;
+        //width: 100%;
+        //margin-top: 0;
+      //}
     }
   }
   span {
     color: $color-secondary;
+    @media (max-width: $bp-md) {
+      display: none;
+    }
   }
   a {
     text-decoration: none;
