@@ -6,7 +6,7 @@ date: 2018-01-10
 year: 2015-2018
 type: Logo Design
 agency: various
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium recusandae saepe voluptate velit impedit accusantium soluta eos! Delectus cum deserunt laboriosam assumenda sunt consequuntur asperiores ipsum, tempore exercitationem quis.
+description: 
 img1: logos1.jpg
 img2: logos2.jpg
 img3: logos3.jpg
