@@ -36,7 +36,7 @@ tl
     tl.add(
       TweenMax.staggerFrom($(this), 0.1, {
         autoAlpha: 0,
-        y: -5,
+        y: 5,
         ease: Power0.easeOut
       })
     );
