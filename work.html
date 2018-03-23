@@ -14,6 +14,11 @@ subtitle:
         <a href="{{ project.url }}" title="{{ project.title }}">
           <div class="recent-work-list__img-wrapper">
             <img src="{{ site.baseurl}}/assets/images/{{ project.featuredImage }}">
+            <a href="{{ project.url }}" title="{{ project.title }}">
+              <div class="recent-work-list__hover">
+                {{ project.title }}
+              </div>
+            </a>
           </div>
         </a>
       </li>
