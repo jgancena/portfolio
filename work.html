@@ -12,16 +12,14 @@ subtitle:
     <ul class="re-li recent-work-list recent-work-list--is-work-page">
       {% for project in site.projects %}
       <li class="work-anim">
-        <a href="{{ project.url }}" title="{{ project.title }}">
-          <div class="recent-work-list__img-wrapper">
-            <img src="{{ site.baseurl}}/assets/images/{{ project.featuredImage }}">
-            <a href="{{ project.url }}" title="{{ project.title }}">
-              <div class="recent-work-list__hover">
-                {{ project.title }}
-              </div>
-            </a>
-          </div>
-        </a>
+        <div class="recent-work-list__img-wrapper">
+          <img src="{{ site.baseurl}}/assets/images/{{ project.featuredImage }}">
+          <a href="{{ project.url }}" title="{{ project.title }}">
+            <div class="recent-work-list__hover">
+              {{ project.title }}
+            </div>
+          </a>
+        </div>
       </li>
       {% endfor %}
     </ul>
