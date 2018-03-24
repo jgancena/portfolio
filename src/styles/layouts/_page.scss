@@ -209,15 +209,11 @@
     &:hover {
       &:before {
         background: rgba(black, 0.99);
-        @media (max-width: $bp-md) {
-          display: none;
-        }
       }
       .recent-work-list__hover {
         display: flex;
         opacity: 1;
         transition: opacity 0.3s ease-out;
-
       }
     }
   }
