@@ -1792,9 +1792,6 @@ code {
       display: flex;
       opacity: 1;
       transition: opacity 0.3s ease-out; }
-      @media (max-width: 50rem) {
-        .page-work .recent-work-list__img-wrapper:hover .recent-work-list__hover {
-          display: none; } }
 
 .recent-work-list__hover {
   display: none;
@@ -1823,7 +1820,8 @@ code {
     display: flex;
     color: #fff;
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    z-index: 99999999; }
 
 .cta .btn {
   margin-top: 10px; }
