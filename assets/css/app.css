@@ -1764,6 +1764,9 @@ code {
     @media (max-width: 50rem) {
       .page-work .recent-work-list li {
         width: calc(100% - 30px); } }
+  .page-work .recent-work-list a {
+    width: 100%;
+    height: 100%; }
   .page-work .recent-work-list__img-wrapper {
     position: relative; }
     .page-work .recent-work-list__img-wrapper:before {
