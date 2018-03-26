@@ -3,7 +3,7 @@ layout: project
 title: Water Street Tampa
 homeImage: tbd
 featuredImage: wst-hero.gif
-date: 2018-01-04
+date: 2018-01-03
 year: 2017
 type: UI/UX, Visual Design, Social Media
 agency: Sparxoo

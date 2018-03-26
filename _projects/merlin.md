@@ -3,7 +3,7 @@ layout: project
 title: Merlin Law Group
 homeImage: tbd
 featuredImage: merlin-hero.jpg
-date: 2018-01-06
+date: 2018-01-07
 year: 2017
 type: UI/UX, Visual Design
 agency: Sparxoo

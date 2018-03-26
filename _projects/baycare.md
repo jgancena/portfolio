@@ -3,7 +3,7 @@ layout: project
 title: BayCare
 homeImage: tbd
 featuredImage: baycare-hero.jpg
-date: 2018-01-02
+date: 2018-01-05
 year: 2016
 type: UI/UX, Visual Design, Design
 agency: Spark

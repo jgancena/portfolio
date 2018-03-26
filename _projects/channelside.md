@@ -3,7 +3,7 @@ layout: project
 title: Channelside
 homeImage: tbd
 featuredImage: channelside-hero.jpg
-date: 2018-01-03
+date: 2018-01-02
 year: 2017-2018
 type: Art Direction, Identity, UI/UX, Visual Design
 agency: Sparxoo

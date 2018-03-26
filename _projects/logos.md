@@ -2,7 +2,7 @@
 layout: project
 title: Logos
 featuredImage: logos-hero.jpg
-date: 2018-01-10
+date: 2018-01-08
 year: 2015-2018
 type: Logo Design
 agency: various

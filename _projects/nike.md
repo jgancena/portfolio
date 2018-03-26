@@ -3,7 +3,7 @@ layout: project
 title: Nike Running Flatiron Store
 homeImage: tbd
 featuredImage: nike-hero.jpg
-date: 2018-01-09
+date: 2018-01-04
 year: 2015
 type: UI/UX, Visual Design
 agency: STEADY

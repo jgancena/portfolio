@@ -3,7 +3,7 @@ layout: project
 title: Fleming's Steakhouse
 homeImage: tbd
 featuredImage: flemings-hero.jpg
-date: 2018-01-05
+date: 2018-01-06
 year: 2017
 type: Photography, Design
 agency: Sparxoo
