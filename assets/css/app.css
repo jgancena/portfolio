@@ -103,10 +103,11 @@ sup {
 
 a {
   color: black;
+  text-decoration: underline;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover, a:focus {
-    color: white; }
+    color: black; }
 
 a:not([href]):not([tabindex]) {
   text-decoration: none; }
