@@ -2,7 +2,7 @@
 layout: project
 title: Joffrey's Coffee & Tea Company
 homeImage: tbd
-featuredImage: wst-hero.gif
+featuredImage: joffreys-hero.jpg
 date: 2020-02-21
 year: 2019
 type: Art Direction, Website Design
