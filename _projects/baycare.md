@@ -5,7 +5,7 @@ homeImage: tbd
 featuredImage: baycare-hero.jpg
 date: 2018-01-05
 year: 2016
-type: Visual Design, Design
+type: Design
 agency: Spark
 description: We don't need more Breast Cancer awareness—we need more people taking action to beat it. That’s why BayCare Health Systems came to Spark to turn their October efforts into an experience-driven, hands-on healthcare campaign that not only celebrated survivors, supporters, and caregivers, but empowered both women and men to put their breast health in their hands. The campaign’s microsite housed everything from patient stories, to UGC, to life-saving information.
 img1: baycare1.jpg
