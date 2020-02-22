@@ -135,8 +135,7 @@ figure {
 img {
   max-width: 100%;
   vertical-align: middle;
-  border-style: none; 
-  border: 1px solid #00000017; }
+  border-style: none; }
 
 svg:not(:root) {
   overflow: hidden; }
