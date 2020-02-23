@@ -3,26 +3,14 @@ layout: project
 title: Fleming's Steakhouse
 homeImage: tbd
 featuredImage: flemings-hero.jpg
-date: 2018-01-06
-year: 2017
-type: Photography, Design
+date: 2019-02-23
+year: 2019
+type: Art Direction, Design
 agency: Sparxoo
-description: Fleming's came to Sparxoo looking for us to craft a genuine look and feel for their social and digital presence. The goal was to create interest and drive reservations for their holiday offerings and private dining experiences. We included more human elements and let the food determine how each scene was staged. We shot the food as it came out of the kitchen, without beauty modifications, so the experience online matched the in-restaurant presentation. Also helping to create a new menu concept and design, we leveraged locally curated pairings of both steak and wine for the reopening of their flagship location in Newport Beach, California.
+description: Fleming's came to Sparxoo looking for us to craft a unique Mother's Day campaign that would separate them from surrounding competitors. We asked ourselves, "What's Mother's Day really about? What's at the core?" This day is to celebrate moms for every single thing they do for the ones they love, from the small, day-to-day tasks to the big celebrations. So we set out to create a campaign that was real. We didn't want to focus solely on the food and beverage offerings—we wanted to lead with the moments with mom, shared with Fleming's.
 img1: flemings1.jpg
-img2: flemings2.jpg
-img3: flemings3.jpg
-img4: flemings4.jpg
 ---
 
-<div class="col-xs-12 col-sm-6 about-work-items__item">
+<div class="col-xs-12 about-work-items__item">
   <img src="{{ site.baseurl}}/assets/images/{{ page.img1 }}">
-</div>
-<div class="col-xs-12 col-sm-6 about-work-items__item">
-  <img src="{{ site.baseurl}}/assets/images/{{ page.img2 }}">
-</div>
-<div class="col-xs-12 about-work-items__item">
-  <img src="{{ site.baseurl}}/assets/images/{{ page.img3 }}">
-</div>
-<div class="col-xs-12 about-work-items__item">
-  <img src="{{ site.baseurl}}/assets/images/{{ page.img4 }}">
 </div>
