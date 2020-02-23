@@ -4,7 +4,7 @@ title: Sparxoo 2020 Digital Marketing Trends Report
 homeImage: tbd
 featuredImage: trendsguide-hero.jpg
 date: 2019-02-23
-year: 2019 (Gold ADDY Winner)
+year: 2020 (Gold ADDY Winner)
 type: Art Direction, Design
 agency: Sparxoo
 description: Constantly creating for our clients, we’re always looking ahead here at Sparxoo. It’s a priority of ours to take the pulse of our industry and share our findings with the world. We took it a step further in 2020 to showcase both our content and design in a whole new way—breaking out of the box with the intention to elevate ourselves and the audience.
