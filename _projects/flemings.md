@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Fleming's Steakhouse
+title: Fleming's Prime Steakhouse & Wine Bar
 homeImage: tbd
 featuredImage: flemings-hero.jpg
 date: 2019-02-23
