@@ -3,7 +3,7 @@ layout: project
 title: Sparxoo 2020 Digital Marketing Trends Report
 homeImage: tbd
 featuredImage: trendsguide-hero.jpg
-date: 2020-02-22
+date: 2020-02-18
 year: 2020 (Gold ADDY Winner)
 type: Art Direction, Design
 agency: Sparxoo
