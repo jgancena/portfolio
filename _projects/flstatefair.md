@@ -3,7 +3,7 @@ layout: project
 title: Florida State Fair
 homeImage: tbd
 featuredImage: flstatefair-hero.jpg
-date: 2020-02-19
+date: 2020-02-21
 year: 2019 (Silver ADDY Winner)
 type: Art Direction, Website Design
 agency: Sparxoo
