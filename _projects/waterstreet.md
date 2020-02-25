@@ -3,7 +3,7 @@ layout: project
 title: Water Street Tampa
 homeImage: tbd
 featuredImage: wst-hero.gif
-date: 2020-02-21
+date: 2020-02-20
 year: 2017
 type: Art Direction, Website Design
 agency: Sparxoo
