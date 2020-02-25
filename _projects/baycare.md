@@ -3,7 +3,7 @@ layout: project
 title: BayCare
 homeImage: tbd
 featuredImage: baycare-hero.jpg
-date: 2020-02-16
+date: 2020-02-24
 year: 2016
 type: Design
 agency: Spark
