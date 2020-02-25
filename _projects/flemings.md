@@ -3,7 +3,7 @@ layout: project
 title: Fleming's Prime Steakhouse & Wine Bar
 homeImage: tbd
 featuredImage: flemings-hero.jpg
-date: 2019-02-23
+date: 2020-02-23
 year: 2019
 type: Art Direction, Design
 agency: Sparxoo
