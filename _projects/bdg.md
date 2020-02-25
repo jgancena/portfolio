@@ -3,7 +3,7 @@ layout: project
 title: BDG Architects
 homeImage: tbd
 featuredImage: bdg-hero.jpg
-date: 2020-02-22
+date: 2020-02-18
 year: 2019 (Silver ADDY Winner)
 type: Art Direction, Website Design
 agency: Sparxoo
