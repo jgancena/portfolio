@@ -3,7 +3,7 @@ layout: project
 title: Florida Poly University
 homeImage: image.jpg
 featuredImage: flpoly-hero.jpg
-date: 2020-02-17
+date: 2020-02-23
 year: 2017
 type: Website Design
 agency: Sparxoo
