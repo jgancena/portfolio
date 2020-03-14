@@ -7,8 +7,7 @@ date: 2020-02-15
 year: 2019
 type: Art Direction, Brand Identity
 agency: Sparxoo
-description: When Bainbridge came to us, they wanted to create a brand that tied back to what represented not only their team, but their property—inspiring, empowering, captivating,
-sophisticated, connected and innovative. Every design detail was crafted intentionally. From the brand voice and audience to the color palette and typography choices, there is rationale behind every choice
+description: When Bainbridge came to us, they wanted to create a brand that tied back to what represented not only their team, but their property—inspiring, empowering, captivating, sophisticated, connected and innovative. Every design detail was crafted intentionally. From the brand voice and audience to the color palette and typography choices, there is rationale behind every choice.
 img1: bainbridge1.jpg
 img2: bainbridge2.jpg
 img3: bainbridge3.jpg
