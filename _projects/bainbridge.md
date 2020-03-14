@@ -13,10 +13,10 @@ img2: bainbridge2.jpg
 img3: bainbridge3.jpg
 ---
 
-<div class="col-xs-12 col-sm-6 about-work-items__item">
+<div class="col-xs-12 about-work-items__item">
   <img src="{{ site.baseurl}}/assets/images/{{ page.img1 }}">
 </div>
-<div class="col-xs-12 col-sm-6 about-work-items__item">
+<div class="col-xs-12 about-work-items__item">
   <img src="{{ site.baseurl}}/assets/images/{{ page.img2 }}">
 </div>
 <div class="col-xs-12 about-work-items__item">
