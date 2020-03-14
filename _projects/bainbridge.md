@@ -3,7 +3,7 @@ layout: project
 title: Bainbridge Town Center East
 homeImage: tbd
 featuredImage: bainbridge-hero.jpg
-date: 2020-02-24
+date: 2020-02-15
 year: 2019
 type: Art Direction, Brand Identity
 agency: Sparxoo
