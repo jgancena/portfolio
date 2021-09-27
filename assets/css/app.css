@@ -1620,6 +1620,7 @@ code {
       .nav span {
         display: none; } }
   .nav a {
+    color: #111;
     text-decoration: none; }
 
 .container {
